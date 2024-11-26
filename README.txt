@@ -12,9 +12,9 @@
 
 4. Compiling :
 
-   []
+   [ gcc -Wall -g packet_sniffer.C -o packet_sniffer -lpcap ]
 
 5. Run the program with root privileges to allow access to the network interface :
 
-   [ sudo ./sniffer eth0 ]
+   [ sudo ./packet_sniffer eth0 ]
   
