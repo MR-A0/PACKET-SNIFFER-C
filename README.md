@@ -17,7 +17,7 @@ Switch to promiscuous Mode :
 
 [ sudo ifconfig eth0 promisc ]
 
-Compiling :
+Compiling : [OPTIONAL]
 
 [ gcc -Wall -g packet_sniffer.C -o packet_sniffer -lpcap ]
 
