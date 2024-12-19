@@ -3,24 +3,32 @@
 ![MY Image](https://github.com/MR-A0/PACKET-SNIFFER-C/blob/c19d8685ebfe263dde7cda20fa031a7c9611f7a4/Screenshot%202024-12-18%20121042.png)
 
 
-# Requirement:
+## INSTALLATION [root@A:-] :
 
-libpcap must be installed on your system. On Linux, you can install it with:
+```
+apt-get update -y
+```
+```
+apt-get upgrade -y
+```
+```
+sudo apt-get install libpcap-dev 
+```
+```
+git clone --depth 1 https://github.com/MR-A0/PACKET-SNIFFER-C.git
+```
 
-[ sudo apt-get install libpcap-dev ]
 
-Find Your Network Interface :
+## EXECUTION [root@A:-] :
 
-[ ifconfig ex: eth0 ]
-
-Switch to promiscuous Mode :
-
-[ sudo ifconfig eth0 promisc ]
-
-Compiling : [OPTIONAL]
-
-[ gcc -Wall -g packet_sniffer.C -o packet_sniffer -lpcap ]
-
-Run the program with root privileges to allow access to the network interface :
-
+```
+cd PACKET-SNIFFER-C
+```
+```
+chmod 777 PACKET_SNIFFER
+```
+```
+sudo ./PACKET_SNIFFER eth0
+```
+<br>
 [ sudo ./packet_sniffer eth0 ]
