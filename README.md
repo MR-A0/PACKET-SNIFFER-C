@@ -15,7 +15,7 @@ apt-get upgrade -y
 sudo apt-get install libpcap-dev 
 ```
 ```
-git clone --depth 1 https://github.com/MR-A0/PACKET-SNIFFER-C.git
+git clone https://github.com/MR-A0/PACKET-SNIFFER-C.git
 ```
 
 
