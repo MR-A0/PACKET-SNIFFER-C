@@ -36,3 +36,8 @@ sudo ./PACKET_SNIFFER eth0
 💡 Use it responsibly for debugging or normal monitoring tasks.
 🚫 Do not use this tool for malicious purposes or illegal activities.***
 <br>
+<br>
+🎉 Welcome to my 365 Cybersecurity Projects! 🛡️
+In this playlist, I’ll create high-level cybersecurity projects, including firewalls, VPNs, and more. 
+🔥 I’ll also provide the source code for these projects/tools on GitHub, 
+so you can study or customize them your way! 💻✨
